@@ -10,11 +10,7 @@ public class DeleteNodeWithoutHead {
 		{
 			temp = node.next.next;
 			node.next.next = null;
-		}
-		
-		
-		if(node.next!=null)
-		{
+			
 			Node val = node;
 			node = node.next;
 			node.next = val;
